@@ -47,7 +47,7 @@ class App:
         self.name = name
         self.developer = developer
         self.price = price
-        self.liks = links
+        self.links = links
 
     def __str__(self):
         return ("Name: " + self.name.encode('UTF-8') + 
